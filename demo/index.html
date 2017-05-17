@@ -70,6 +70,7 @@
                             <div><span>{{file.name}}</span><div style="float:right;"><span>{{file.humanSize}}</span><a ng-click="btn_remove(file)" title="Remove from list to be uploaded"><i class="icon-remove"></i></a></div>
                             </div>
                             <progress style="width:400px;" value="{{file.loaded ? file.loaded : 0}}" max="{{file.size}}"></progress>
+                            <img src="{{file.name}}">
                         </div>
                     </div>
                 </div>
